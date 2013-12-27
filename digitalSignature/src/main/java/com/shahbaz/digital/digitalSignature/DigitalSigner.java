@@ -28,13 +28,25 @@ public class DigitalSigner {
 
 
 
-	
+	/**
+	 * Password of pfx file
+	 */
 	String password;
 	
+	/**
+	 * Message to be signed
+	 */
+			
 	String message;
 	
+	/**
+	 * Alias name of Pfx file
+	 */
 	String alias;
 	
+	/**
+	 * The KeYStore of PFX file
+	 */
 	Resource keyStoreFile;
 
 	KeyStore keystore;

@@ -57,6 +57,7 @@ public class DigitalSigner {
 	 * Shahbaz Khan
 	 * 04-Nov-2013 3:03:58 pm 
 	 * void
+	 * To load the application context and trigger the application
 	 */
 
 	public static void main(String args[]) {

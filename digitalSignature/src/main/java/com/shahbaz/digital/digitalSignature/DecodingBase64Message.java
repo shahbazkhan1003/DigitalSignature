@@ -11,6 +11,9 @@ public class DecodingBase64Message {
 
 	public static void main(String[] args) {
 		
+		/**
+		 * This Base64 Encoded
+		 */
 		String message="SGVsbG8gd29ybGQgISBJIHdhbnQgdG8gYmUgc2lnbmVk";
 		
 		System.out.println(" Messag was  -- >>  "+new DecodingBase64Message().decodeBase64(message));
